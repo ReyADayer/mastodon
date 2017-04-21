@@ -39,14 +39,14 @@
       outline: 0;
 
       img {
-        opacity: 0.8;
-        transition: all 0.8s ease;
+        opacity: .8;
+        transition: all .8s ease;
       }
 
       &:hover {
         img {
           opacity: 1;
-          transition-duration: 0.2s;
+          transition-duration: .2s;
         }
       }
     }
