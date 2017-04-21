@@ -4,7 +4,7 @@
   padding: 60px 0;
   padding-bottom: 0;
   border-radius: 4px 4px 0 0;
-  box-shadow: 0 0 15px rgba($color8, 0.2);
+  box-shadow: 0 0 15px rgba($color8, .2);
   overflow: hidden;
   position: relative;
 
@@ -13,10 +13,10 @@
     box-shadow: none;
   }
 
-  &:after {
-    background: linear-gradient(rgba($color8, 0.5), rgba($color8, 0.8));
+  &::after {
+    background: linear-gradient(rgba($color8, .5), rgba($color8, .8));
     display: block;
-    content: "";
+    content: '';
     position: absolute;
     left: 0;
     top: 0;
@@ -83,7 +83,7 @@
   .counter {
     width: 80px;
     color: $color3;
-    padding: 5px 10px 0px;
+    padding: 5px 10px 0;
     margin-bottom: 10px;
     border-right: 1px solid $color3;
     cursor: default;
@@ -93,29 +93,29 @@
       display: block;
     }
 
-    &:after {
+    &::after {
       display: block;
-      content: "";
+      content: '';
       position: absolute;
       bottom: -10px;
       left: 0;
       width: 100%;
       border-bottom: 4px solid $color3;
-      opacity: 0.5;
-      transition: all 0.8s ease;
+      opacity: .5;
+      transition: all .8s ease;
     }
 
     &.active {
-      &:after {
+      &::after {
         border-bottom: 4px solid $color4;
         opacity: 1;
       }
     }
 
     &:hover {
-      &:after {
+      &::after {
         opacity: 1;
-        transition-duration: 0.2s;
+        transition-duration: .2s;
       }
     }
 
@@ -163,7 +163,7 @@
     }
 
     .counter:last-child {
-      border-right: none;
+      border-right: 0;
     }
   }
 }
@@ -237,7 +237,7 @@
 }
 
 .accounts-grid {
-  box-shadow: 0 0 15px rgba($color8, 0.2);
+  box-shadow: 0 0 15px rgba($color8, .2);
   background: $color5;
   border-radius: 0 0 4px 4px;
   padding: 20px 10px;
@@ -332,7 +332,7 @@
   background: $color5;
   border-radius: 4px;
   text-align: left;
-  box-shadow: 0 0 15px rgba($color8, 0.2);
+  box-shadow: 0 0 15px rgba($color8, .2);
 
   .detailed-status__display-name {
     display: block;
