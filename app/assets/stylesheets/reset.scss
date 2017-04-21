@@ -42,8 +42,8 @@ blockquote, q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote::before, blockquote::after,
+q::before, q::after {
   content: '';
   content: none;
 }
@@ -60,7 +60,7 @@ table {
 
 ::-webkit-scrollbar-thumb {
   background: lighten($color1, 4%);
-  border: 0px none $color5;
+  border: 0 none $color5;
   border-radius: 50px;
 }
 
@@ -73,9 +73,9 @@ table {
 }
 
 ::-webkit-scrollbar-track {
-  border: 0px none $color5;
+  border: 0 none $color5;
   border-radius: 0;
-  background: rgba($color8, 0.1);
+  background: rgba($color8, .1);
 }
 
 ::-webkit-scrollbar-track:hover {
