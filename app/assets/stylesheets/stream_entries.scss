@@ -1,6 +1,6 @@
 .activity-stream {
   clear: both;
-  box-shadow: 0 0 15px rgba($color8, 0.2);
+  box-shadow: 0 0 15px rgba($color8, .2);
 
   .entry {
     background: $color5;
@@ -30,7 +30,7 @@
   }
 
   .status.light {
-    padding: 14px 14px 14px (48px + 14px*2);
+    padding: 14px 14px 14px (48px + 14px * 2);
     position: relative;
     min-height: 48px;
     cursor: default;
@@ -283,7 +283,7 @@
       transform: translate(-50%, -50%);
       padding: 5px;
       border-radius: 100px;
-      color: rgba($color5, 0.8);
+      color: rgba($color5, .8);
       z-index: 1;
     }
   }
@@ -323,8 +323,8 @@
   }
 
   .pre-header {
-    padding: 14px 0px;
-    padding-left: (48px + 14px*2);
+    padding: 14px 0;
+    padding-left: (48px + 14px * 2);
     padding-bottom: 0;
     margin-bottom: -4px;
     color: $color3;
@@ -333,7 +333,7 @@
 
     .pre-header__icon {
       position: absolute;
-      left: (48px + 14px*2 - 30px);
+      left: (48px + 14px * 2 - 30px);
     }
 
     .status__display-name.muted strong {
