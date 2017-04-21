@@ -1,0 +1,42 @@
+linters:
+  PropertySortOrder:
+    enabled: false
+
+  SingleLinePerSelector:
+    enabled: false
+
+  NestingDepth:
+    enabled: false
+
+  ColorVariable:
+    enabled: false
+
+  QualifyingElement:
+    enabled: false
+
+  SelectorDepth:
+    enabled: false
+
+  Comment:
+    enabled: false
+
+  IdSelector:
+    enabled: false
+
+  DuplicateProperty:
+    enabled: false
+
+  Indentation:
+    enabled: false
+
+  SelectorFormat:
+    enabled: false
+
+  UnnecessaryParentReference:
+    enabled: false
+
+  MergeableSelector:
+    enabled: false
+
+  ImportantRule:
+    enabled: false
